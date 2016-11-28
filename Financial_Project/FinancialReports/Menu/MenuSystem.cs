@@ -70,8 +70,6 @@ namespace FinancialReports.Menu
 
         public void Start()
         {
-            //Console.BackgroundColor = ConsoleColor.DarkGreen;
-            //Console.ForegroundColor = ConsoleColor.Black;
 
             while (!done)
             {
