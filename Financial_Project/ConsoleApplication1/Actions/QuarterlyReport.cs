@@ -19,9 +19,13 @@ namespace FinancialReports.Actions
             Console.WriteLine("------------------------------");
             for (var i = 0; i < quarterlyProducts.Count; i++)
             {
-                Console.WriteLine($"{quarterlyProducts[i].productName}\t\t${quarterlyProducts[i].productPrice}");
+                StringBuilder ProductString = new StringBuilder($"{quarterlyProducts[i].productName}\t");
+                string Price = string.Format("{0:C}",
+                quarterlyProducts[i].productPrice);
+                ProductString.Append(Price);
+                Console.WriteLine(ProductString);
             }
-            Console.WriteLine("Please any key to go back to Main Menu");
+            Console.WriteLine("Press any key to go back to Main Menu");
             Console.ReadLine();
         }
     }

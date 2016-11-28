@@ -69,7 +69,7 @@ namespace FinancialReports
             }
         }
         [TestMethod]
-        public void TestCanGetRevenueForEachProduct()
+        public void TestCanGetRevenueForProductsInDatabase()
         {
             ProductFactory productFactory = new ProductFactory();
             List<Product> productList = productFactory.getProductRevenue();
@@ -79,7 +79,7 @@ namespace FinancialReports
             }
         }
         [TestMethod]
-        public void TestCanGetRevenueForEachCustomer()
+        public void TestCanGetRevenueForCustomersInDatabase()
         {
             CustomerFactory customerFactory = new CustomerFactory();
             List<Customer> customerList = customerFactory.getCustomerRevenue();

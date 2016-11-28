@@ -6,6 +6,7 @@ using Microsoft.Data.Sqlite;
 
 namespace FinancialReports.Factories
 {
+    //The purpose of this class is to query the database for the first and last name of each customer as well as the amount of money he/she has spent at Bangazon.
     public class CustomerFactory
     {
         public List<Customer> getCustomerRevenue()

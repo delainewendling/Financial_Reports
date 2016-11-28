@@ -6,8 +6,10 @@ using FinancialReports.Data;
 
 namespace FinancialReports.Factories
 {
+    //The purpose of this class is to query the database for each product sold in a variable amount of time as well as to get the amount of revenue gained from each product. 
     public class ProductFactory
     {
+        //This method takes in an integer as an argument. This integer specifies the number of days worth of sales to query the database.
         public List<Product> getProductsWithinTime(int days)
         {
             List<Product> productList = new List<Product>();
