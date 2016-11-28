@@ -35,9 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClassLibrary1">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2015\Projects\BangazonPrime2\ClassLibrary1\bin\Debug\netstandard1.6\ClassLibrary1.dll</HintPath>
-    </Reference>
     <Reference Include="ConsoleApplication1">
       <HintPath>..\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe</HintPath>
     </Reference>
